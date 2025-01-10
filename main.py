@@ -5,7 +5,7 @@ def connect_db():
     """Подключение к базе данных PostgreSQL."""
     return psycopg2.connect(
         dbname="",
-        user="",  # Замените на ваше имя пользователя 567
+        user="",  # Замените на ваше имя пользователя
         password="",  # Укажите ваш пароль
         host="",  # Укажите ваш хост
         port=""  # Порт PostgreSQL по умолчанию
